@@ -3,7 +3,8 @@ def student_details(name, usn, college, city):
         "name": name,
         "usn": usn,
         "college": college,
-        "city": city
+        "city": city,
+        "email": email
     }
 
 if __name__ == "__main__":
@@ -12,4 +13,4 @@ if __name__ == "__main__":
     college = input("Enter college name: ")
     city = input("Enter city: ")
 
-    print(student_details(name, usn, college, city))
+    print(student_details(name, usn, college, city, email))
