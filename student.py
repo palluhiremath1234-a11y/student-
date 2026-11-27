@@ -1,4 +1,4 @@
-def student_details(name, usn, college, city):
+def student_details(name, usn, college, city, email):
     return {
         "name": name,
         "usn": usn,
